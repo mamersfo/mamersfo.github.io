@@ -2,7 +2,7 @@
   "log": ["*"],
   "databases": {
     "db": {
-      "server": "http://couchbase-server:8091",
+      "server": "http://172.18.0.2:8091",
       "bucket": "sync_gateway",
       "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } },
       "verbose": true
